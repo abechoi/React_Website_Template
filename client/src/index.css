@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Montserrat, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 8rem;
+  background-color: #20232A;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+.nav-logo{
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  background-color: #20232A;
+}
+
+.logo-first{
+  margin-top: 0.8rem;
+  font-size: 2.5rem;
+  color: #61DAFB;
+  background-color: #20232A;
+}
+
+.logo-first:hover{
+  color: #FDF200;
+}
+
+.logo-last{
+ font-size: 2.5rem;
+ color: #FF85EA;
+ background-color: #20232A;
+}
+
+.logo-last:hover{
+ color: #FDF200;
+}
+
+.site-links{
+  list-style-type: none;
+}
+
+.social-links{
+  list-style-type: none;
+}
+
+.icon-links{
+  color: #20232A !important;
+  background-color: #00FECA;
+  list-style-type: none;
+}
+
+.icon-links:hover{
+  color:  #00feca !important;
+  background-color: #20232A;
+}
