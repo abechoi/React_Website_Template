@@ -33,7 +33,7 @@ a{
 
 .logo-first{
   margin-top: 0.8rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #61DAFB;
   background-color: #20232A;
 }
@@ -43,7 +43,7 @@ a{
 }
 
 .logo-last{
- font-size: 2.5rem;
+ font-size: 2rem;
  color: #FF85EA;
  background-color: #20232A;
 }
@@ -54,19 +54,24 @@ a{
 
 .site-links{
   list-style-type: none;
+  display: flex;
 }
 
 .social-links{
   list-style-type: none;
+  display: flex;
 }
-
-.icon-links{
+.social-link{
+  padding: 2px;
+  margin: 5px;
+  width: 1em !important;
   color: #20232A !important;
   background-color: #00FECA;
   list-style-type: none;
+  border: 2px #20232A solid;
+  border-radius: 5px;
 }
-
-.icon-links:hover{
+.social-link:hover{
   color:  #00feca !important;
   background-color: #20232A;
 }

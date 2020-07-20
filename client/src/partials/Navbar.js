@@ -34,7 +34,7 @@ const Navbar = () => {
           return (
             <li key={link.id}>
               <a  href={link.link} target="__blank">
-                <FontAwesomeIcon  className="icon-links" icon={link.icon} size={link.size}/>
+                <FontAwesomeIcon  className="social-link" icon={link.icon} size={link.size}/>
               </a>
             </li>
           );
