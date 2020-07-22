@@ -1,16 +1,28 @@
 import React from "react";
-import Navbar from '../partials/Navbar';
-import Footer from '../partials/Footer';
 
 const Docs = () => {
-
   return (
     <div>
-      <Navbar />
-        <section>
-          DOCS
-        </section>
-      <Footer />
+      FIRST<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      DOCS<br/>
+      LAST<br/>
     </div>
   );
 }

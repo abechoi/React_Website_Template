@@ -1,10 +1,27 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from './partials/Navbar';
+import Footer from './partials/Footer';
+import Blogs from './components/Blogs';
+import Docs from './components/Docs';
+import About from './components/About';
 import Projects from './components/Projects';
 
 const App = () => {
   return (
     <div className="App">
-      <Projects />
+      <Router>
+        <Navbar/>
+        <section className="main-section">
+          <Switch>
+            <Route exact path="/"><Projects/></Route>
+            <Route path="/blogs"><Blogs/></Route>
+            <Route path="/docs"><Docs/></Route>
+            <Route path="/about"><About/></Route>
+          </Switch>
+        </section>
+        <Footer/>
+      </Router>
     </div>
   );
 }

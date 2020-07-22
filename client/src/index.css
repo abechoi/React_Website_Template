@@ -3,6 +3,7 @@ body {
   font-family: Montserrat, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #20232A;
 }
 
 code {
@@ -11,8 +12,8 @@ code {
 }
 
 .navbar{
-  position: fixed;
   display: flex;
+  top: 0;
   justify-content: center;
   width: 100vw;
   height: 8rem;
@@ -74,4 +75,10 @@ a{
 .social-link:hover{
   color:  #00feca !important;
   background-color: #20232A;
+}
+
+.main-section{
+  height: 100vh;
+  width: 100%;
+  background-color: #ddd;
 }

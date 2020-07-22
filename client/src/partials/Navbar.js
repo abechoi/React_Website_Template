@@ -1,5 +1,5 @@
 import React from "react";
-import SectionLink from "./links/SectionLink";
+import { Link } from "react-router-dom";
 
 // npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome
 // npm i -S @fortawesome/free-brands-svg-icons
@@ -24,10 +24,10 @@ const Navbar = () => {
         </a>
       </div>
       <ul className="site-links">
-        <li><SectionLink name="Projects"/>PROJECTS</li>
-        <li><SectionLink name="Docs" />DOCS</li>
-        <li><SectionLink name="Blogs" />BLOGS</li>
-        <li><SectionLink name="About" />ABOUT</li>
+        <li><Link to="/">PROJECTS</Link></li>
+        <li><Link to="/docs">DOCS</Link></li>
+        <li><Link to="/blogs">BLOGS</Link></li>
+        <li><Link to="/about">ABOUT</Link></li>
       </ul>
       <ul className="social-links">
         { links.map(link => {
