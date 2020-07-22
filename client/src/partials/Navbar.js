@@ -18,16 +18,16 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-logo">
-        <a className="nav-logo-link" href="/">
+        <a href="/">
           <div className="logo-first">ABE</div>
           <div className="logo-last">CHOI</div>
         </a>
       </div>
       <ul className="site-links">
-        <li><Link to="/">PROJECTS</Link></li>
-        <li><Link to="/docs">DOCS</Link></li>
-        <li><Link to="/blogs">BLOGS</Link></li>
-        <li><Link to="/about">ABOUT</Link></li>
+        <li><Link to="/" className="project-link">PROJECTS</Link></li>
+        <li><Link to="/docs" className="docs-link">DOCS</Link></li>
+        <li><Link to="/blogs" className="blogs-link">BLOGS</Link></li>
+        <li><Link to="/about" className="about-link">ABOUT</Link></li>
       </ul>
       <ul className="social-links">
         { links.map(link => {

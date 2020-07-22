@@ -12,9 +12,9 @@ code {
 }
 
 .navbar{
+  justify-content: center;
   display: flex;
   top: 0;
-  justify-content: center;
   width: 100vw;
   height: 8rem;
   background-color: #20232A;
@@ -28,12 +28,11 @@ a{
 .nav-logo{
   text-align: center;
   width: 10%;
-  height: 100%;
   background-color: #20232A;
 }
 
 .logo-first{
-  margin-top: 0.8rem;
+  margin-top: 1.5rem;
   font-size: 2rem;
   color: #61DAFB;
   background-color: #20232A;
@@ -56,11 +55,49 @@ a{
 .site-links{
   list-style-type: none;
   display: flex;
+  margin: 0 100px;
+}
+
+.site-links li{
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  margin: 7px;
+  border-radius: 5px;
+}
+.site-links li a{
+  font-size: 1.4rem;
+  line-height: 7rem;
+}
+.site-links li a.project-link{
+  color: white;
+}
+.site-links li a.project-link:hover{
+  color: #FF85EA;
+}
+.site-links li a.docs-link{
+  color: white;
+}
+.site-links li a.docs-link:hover{
+  color: #7B61F8;
+}
+.site-links li a.blogs-link{
+  color: white;
+}
+.site-links li a.blogs-link:hover{
+  color: #61DAFB;
+}
+.site-links li a.about-link{
+  color: white;
+}
+.site-links li a.about-link:hover{
+  color: #FDF200;
 }
 
 .social-links{
   list-style-type: none;
   display: flex;
+  padding-top: 1rem;
 }
 .social-link{
   padding: 2px;
