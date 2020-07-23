@@ -32,8 +32,9 @@ a{
 }
 
 .logo-first{
-  margin-top: 1.5rem;
-  font-size: 2rem;
+  margin-top: 1.6rem;
+  font-size: 1.7rem;
+  font-weight: 800;
   color: #61DAFB;
   background-color: #20232A;
 }
@@ -43,7 +44,8 @@ a{
 }
 
 .logo-last{
- font-size: 2rem;
+ font-size: 1.7rem;
+ font-weight: 800;
  color: #FF85EA;
  background-color: #20232A;
 }
@@ -59,39 +61,62 @@ a{
 }
 
 .site-links li{
-  width: 150px;
   justify-content: center;
-  text-align: center;
+  width: 150px;
   margin: 7px;
   border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  
 }
 .site-links li a{
   font-size: 1.4rem;
   line-height: 7rem;
+  padding: 10px;
 }
+
 .site-links li a.project-link{
   color: white;
 }
 .site-links li a.project-link:hover{
   color: #FF85EA;
 }
+.site-links li a.project-link.active{
+  color: #FF85EA;
+  border-bottom: 5px solid #FF85EA;
+}
+
 .site-links li a.docs-link{
   color: white;
 }
 .site-links li a.docs-link:hover{
   color: #7B61F8;
 }
+.site-links li a.docs-link.active{
+  color: #7B61F8;
+  border-bottom: 5px solid #7B61F8;
+}
+
 .site-links li a.blogs-link{
   color: white;
 }
 .site-links li a.blogs-link:hover{
   color: #61DAFB;
 }
+.site-links li a.blogs-link.active{
+  color: #61DAFB;
+  border-bottom: 5px solid #61DAFB;
+}
+
 .site-links li a.about-link{
   color: white;
 }
 .site-links li a.about-link:hover{
   color: #FDF200;
+}
+.site-links li a.about-link.active{
+  color: #FDF200;
+  border-bottom: 5px solid #FDF200;
 }
 
 .social-links{

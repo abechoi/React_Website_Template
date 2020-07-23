@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome
 // npm i -S @fortawesome/free-brands-svg-icons
@@ -24,10 +24,10 @@ const Navbar = () => {
         </a>
       </div>
       <ul className="site-links">
-        <li><Link to="/" className="project-link">PROJECTS</Link></li>
-        <li><Link to="/docs" className="docs-link">DOCS</Link></li>
-        <li><Link to="/blogs" className="blogs-link">BLOGS</Link></li>
-        <li><Link to="/about" className="about-link">ABOUT</Link></li>
+        <li><NavLink exact to="/" className="project-link">PROJECTS</NavLink></li>
+        <li><NavLink to="/docs" className="docs-link">DOCS</NavLink></li>
+        <li><NavLink to="/blogs" className="blogs-link">BLOGS</NavLink></li>
+        <li><NavLink to="/about" className="about-link">ABOUT</NavLink></li>
       </ul>
       <ul className="social-links">
         { links.map(link => {
