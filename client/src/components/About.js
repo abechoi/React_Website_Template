@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <section className="main-section">
       FIRST<br/>
       ABOUT<br/>
       ABOUT<br/>
@@ -23,7 +23,7 @@ const About = () => {
       ABOUT<br/>
       ABOUT<br/>
       LAST<br/>
-    </div>
+    </section>
   );  
 }
 

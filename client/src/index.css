@@ -27,16 +27,15 @@ a{
 
 .nav-logo{
   text-align: center;
+  padding-top: 1.5rem;
   width: 10%;
   background-color: #20232A;
 }
 
 .logo-first{
-  margin-top: 1.5rem;
   font-size: 1.7rem;
   font-weight: 800;
   color: #61DAFB;
-  background-color: #20232A;
 }
 
 .logo-first:hover{
@@ -47,7 +46,6 @@ a{
  font-size: 1.7rem;
  font-weight: 800;
  color: #FF85EA;
- background-color: #20232A;
 }
 
 .logo-last:hover{
@@ -143,4 +141,37 @@ a{
   height: 100vh;
   width: 100%;
   background-color: #ddd;
+}
+
+footer{
+  margin: 0 auto;
+  padding: 25px;
+  display: block;
+  text-align: center;
+  color: white;
+}
+.footer-content{
+  display: flex;
+  justify-content: center;
+}
+.footer-section{
+  margin: 40px 0;
+  width: 25%;
+}
+.footer-links{
+  list-style-type: none;
+}
+.footer-link{
+  margin: 10px;
+}
+.footer-link a{
+  font-size: 1.2rem;
+  color: white;
+}
+footer p{
+  margin: 0;
+  color: white;
+}
+.footer-logo{
+  margin: 5px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div>
+    <section className="main-section">
       FIRST<br/>
       BlOGS<br/>
       BLOGS<br/>
@@ -23,7 +23,7 @@ const Blogs = () => {
       BLOGS<br/>
       BLOGS<br/>
       LAST<br/>
-    </div>
+    </section>
   );
 }
 

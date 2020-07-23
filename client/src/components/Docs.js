@@ -2,7 +2,7 @@ import React from "react";
 
 const Docs = () => {
   return (
-    <div>
+    <section className="main-section">
       FIRST<br/>
       DOCS<br/>
       DOCS<br/>
@@ -23,7 +23,7 @@ const Docs = () => {
       DOCS<br/>
       DOCS<br/>
       LAST<br/>
-    </div>
+    </section>
   );
 }
 
