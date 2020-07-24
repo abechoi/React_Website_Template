@@ -9,8 +9,8 @@ import { faGithub, faCodepen, faLinkedin } from "@fortawesome/free-brands-svg-ic
 
 const links = [
   {id: 1, name: 'Github', icon: faGithub, size: '3x', link: 'https://github.com/abechoi'},
-  {id: 2, name: 'Codepen', icon: faCodepen, size: '3x', link: 'https://github.com/abechoi'},
-  {id: 3, name: 'LinkedIn', icon: faLinkedin, size: '3x', link: 'https://github.com/abechoi'},
+  {id: 2, name: 'Codepen', icon: faCodepen, size: '3x', link: 'https://codepen.io/collection/DjaJdx'},
+  {id: 3, name: 'LinkedIn', icon: faLinkedin, size: '3x', link: 'https://linkedin.com/in/abrahamjchoi'},
 ];
 
 const Navbar = () => {

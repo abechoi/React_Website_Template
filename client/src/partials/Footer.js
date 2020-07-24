@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-content">
 
         <div className="footer-section">
-          <h2 className="footer-name">SECTION</h2>
+          <h2 className="footer-name" style={{ color: '#00FECA' }}>SECTION</h2>
           <ul className="footer-links">
             <li className="footer-link"><Link to="/">Projects</Link></li>
             <li className="footer-link"><Link to="/blogs">Blogs</Link></li>
@@ -17,11 +17,11 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h2 className="footer-name">SOCIAL</h2>
+          <h2 className="footer-name" style={{ color: '#7B61F8' }}>SOCIAL</h2>
           <ul className="footer-links">
             <li className="footer-link"><a href="https://github.com/abechoi" rel="noopener noreferrer" target="_blank">Github</a></li>
-            <li className="footer-link"><a href="https://github.com/abechoi" rel="noopener noreferrer" target="_blank">Codepen</a></li>
-            <li className="footer-link"><a href="https://github.com/abechoi" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+            <li className="footer-link"><a href="https://codepen.io/collection/DjaJdx" rel="noopener noreferrer" target="_blank">Codepen</a></li>
+            <li className="footer-link"><a href="https://linkedin.com/in/abrahamjchoi" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
           </ul>
         </div>
 
