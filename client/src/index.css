@@ -188,3 +188,8 @@ section{
 .blog-list{
   list-style-type: none;
 }
+.blog-card{
+
+  margin: 0 auto;
+  width: 50%;
+}

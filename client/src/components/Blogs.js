@@ -10,8 +10,11 @@ const Blogs = () => {
         { blogs.map( blog => {
           return (
             <li key={ blog.id }>
+            <div className="blog-card">
               <h1>{ blog.title }</h1>
-              <p>{ blog.body }</p>
+              <p>{ blog.paragraph1 }</p>
+              <p>{ blog.paragraph2 }</p>
+            </div>
             </li>);
         })}
       </ul>
