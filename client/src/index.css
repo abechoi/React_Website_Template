@@ -11,6 +11,7 @@ code {
     monospace;
 }
 
+/*! Navbar */
 .navbar{
   justify-content: center;
   display: flex;
@@ -138,12 +139,7 @@ a{
   background-color: #20232A;
 }
 
-.main-section{
-  height: 100vh;
-  width: 100%;
-  background-color: #ddd;
-}
-
+/*! Footer */
 footer{
   margin: 0 auto;
   padding: 25px;
@@ -178,4 +174,17 @@ footer p{
 }
 .footer-logo{
   margin: 5px;
+}
+
+/*! Section Tag */
+section{
+  height: 100vh;
+  width: 100%;
+  padding: 5rem 1rem;
+  background-color: #ddd;
+}
+
+/*! Blogs */
+.blog-list{
+  list-style-type: none;
 }
