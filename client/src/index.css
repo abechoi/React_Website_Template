@@ -10,7 +10,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+section{
+  height: 100vh;
+  background-color: #fff;
+}
+.empty-section{
+  padding-top: 100px;
+  text-align: center;
+}
 /*! Navbar */
 .navbar{
   justify-content: center;
@@ -34,7 +41,6 @@ ul{
   text-align: center;
   padding-top: 1.5rem;
   width: 10%;
-  background-color: #20232A;
 }
 
 .logo-first{
@@ -153,11 +159,27 @@ footer{
 }
 .footer-content{
   display: flex;
+}
+.footer-content-left{
+  width: 50%;
+  margin: 20px 0 40px 0;
+  display: flex;
   justify-content: center;
+  border-right: #FDF200 solid 1px;
+}
+.footer-content-right{
+  width: 50%;
+  margin: 20px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  border-left: #FDF200 solid 1px;
 }
 .footer-section{
   margin: 40px 0;
-  width: 25%;
+  width: 30%;
+}
+.footer-section p{
+  line-height: 4;
 }
 .footer-links{
   list-style-type: none;
@@ -165,10 +187,11 @@ footer{
   padding: 0;
 }
 .footer-link{
-  display:block;
+  display: block;
   margin: 10px;
 }
 .footer-link a{
+  width: 100%;
   font-size: 1.2rem;
   color: white;
 }
@@ -179,16 +202,19 @@ footer p{
 .footer-logo{
   margin: 5px;
 }
-
-/*! Section Tag */
-section{
-  z-index: -1;
-  height: 100vh;
-  background-color: #fff;
+.tech-link{
+  padding: 2px;
+  margin: 5px;
+  width: 1em !important;
+  color: #20232A !important;
+  background-color: #00FECA;
+  list-style-type: none;
+  border: 2px #20232A solid;
+  border-radius: 5px;
 }
-.empty-section{
-  padding-top: 100px;
-  text-align: center;
+.tech-link:hover{
+  color:  #00feca !important;
+  background-color: #20232A;
 }
 /*! Blogs */
 .blogs-section{
