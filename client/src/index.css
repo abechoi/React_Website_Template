@@ -144,6 +144,7 @@ ul{
 
 /*! Footer */
 footer{
+  z-index: 1;
   margin: 0 auto;
   padding: 25px;
   display: block;
@@ -181,8 +182,13 @@ footer p{
 
 /*! Section Tag */
 section{
+  z-index: -1;
   height: 100vh;
   background-color: #fff;
+}
+.empty-section{
+  padding-top: 100px;
+  text-align: center;
 }
 /*! Blogs */
 .blogs-section{
@@ -213,4 +219,55 @@ section{
   width: 15%;
   background-color: #F7F7F7;
   padding: 20px 0 0 6%;
+}
+/*! Projects */
+
+
+/*! Docs */
+
+/*! About */
+.about-section{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.bio-div{
+  display: block;
+  text-align: center;
+  width: 30%;
+  border-right: 1px #ddd solid;
+  box-shadow: 1px 0 #ddd;
+}
+.bio-pic{
+  margin: 50px auto;
+  border-radius: 50%;
+  max-width: 60%;
+  max-height: 60%;
+  border: 1px solid #ddd;
+}
+.bio-info{
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 1px 1px #ddd;
+}
+.bio-info p{
+  margin: 5px auto;
+  width: 70%;
+  color: #20232A;
+}
+.about-div{
+  width: 70%;
+  margin: 0 auto;
+}
+.about-card{
+  width: 80%;
+  border: #ddd solid 1px;
+  box-shadow: 1px 1px #ddd;
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 30px;
 }
