@@ -228,15 +228,17 @@ section{
 /*! About */
 .about-section{
   width: 100vw;
+  height: 100%;
   display: flex;
   justify-content: center;
+  
 }
 .bio-div{
   display: block;
   text-align: center;
   width: 30%;
   border-right: 1px #ddd solid;
-  box-shadow: 1px 0 #ddd;
+  box-shadow: 1px 0 rgb(163, 163, 163);
 }
 .bio-pic{
   margin: 50px auto;
@@ -252,7 +254,7 @@ section{
   text-align: left;
   border: 1px solid #ddd;
   border-radius: 5px;
-  box-shadow: 1px 1px #ddd;
+  box-shadow: 1px 1px rgb(163, 163, 163);
 }
 .bio-info p{
   margin: 5px auto;
@@ -266,7 +268,7 @@ section{
 .about-card{
   width: 80%;
   border: #ddd solid 1px;
-  box-shadow: 1px 1px #ddd;
+  box-shadow: 1px 1px rgb(163, 163, 163);
   border-radius: 5px;
   margin: 50px auto;
   padding: 30px;
