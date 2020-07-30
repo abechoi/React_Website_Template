@@ -252,30 +252,8 @@ footer p{
   padding: 20px 0 0 6%;
 }
 /*! Projects */
-.projects-section{
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-.projects-card{
-  margin: 0 auto;
-  width: 20%;
-  border: 1px solid #ddd;
-  display: block;
-  padding: 15px;
-  border: 1px #ddd solid;
-  border-radius: 5px;
-  box-shadow: 1px 1px rgb(163, 163, 163);
-}
-.projects-thumbnail{
-  width: 100%;
-}
-.projects-title{
-  margin: 15px 0 0 0;
-}
-.projects-card p{
-  margin: 0 0 15px 0;
-}
+
+
 /*! Docs */
 
 /*! About */

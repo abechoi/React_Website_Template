@@ -1,16 +1,22 @@
 import React from "react";
-
-const projects = [];
+import projects from "./data/projects";
 
 const Projects = () => {
 
   return projects.length ? (
     <section className="projects-section">
-      <div>
+      <ul>
         { projects.map(project => (
-          <h3>{ project.title }</h3>
+          <li key={project.id}>
+            <div className="projects-card">
+              <img className="projects-thumbnail" src={ require(project.thumbnail+"") } alt="projects-thumbnail"/>
+              <h1 className="projects-title">{ project.title }</h1>
+              <p>{ project.createdAt }</p>
+              <p>{ project.info }</p>
+            </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   ) : (
     <section className="empty-section">
