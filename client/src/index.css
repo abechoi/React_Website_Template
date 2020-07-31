@@ -257,9 +257,18 @@ footer p{
   display: flex;
   justify-content: center;
 }
-.projects-card{
-  margin: 0 auto;
-  width: 20%;
+.projects-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 35px;
+  margin: 0;
+  padding: 25px 100px;
+  width: 100%;
+  height: 100%;
+}
+.project-card{
+  margin: 1px auto;
+  width: 237px;
   border: 1px solid #ddd;
   display: block;
   padding: 15px;
@@ -269,12 +278,18 @@ footer p{
 }
 .projects-thumbnail{
   width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 .projects-title{
   margin: 15px 0 0 0;
 }
 .projects-card p{
   margin: 0 0 15px 0;
+}
+.project-details{
+  height: 100vh;
+  background: red;
 }
 /*! Docs */
 
@@ -284,7 +299,6 @@ footer p{
   height: 100%;
   display: flex;
   justify-content: center;
-  
 }
 .bio-div{
   display: block;
