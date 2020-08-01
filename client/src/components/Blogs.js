@@ -13,8 +13,8 @@ const Blogs = () => {
               <li key={ blog.id }>
                 <div className="blog-card">
 
-                  <h1 className="blog-title">{ blog.title }</h1>
-                  <p className="blog-date">{ blog.createdAt }</p>
+                  <h1 className="title">{ blog.title }</h1>
+                  <p className="date">{ blog.createdAt }</p>
 
                   <div>{ blog.content.map(i => {
                     return <p className="blog-content" key={blog.content.indexOf(i)}><br/>{i}<br/></p>;
