@@ -241,15 +241,9 @@ footer p{
 }
 /*! ----------------------   PROJECTS - 1250px and up   ---------------------- */
 /*? ----------------------   PROJECTS - 1250px and up   ---------------------- */
-.projects-section{
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
 .projects-grid{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding: 25px 100px;
   height: 100%;
   justify-items: end;
 }
@@ -656,7 +650,6 @@ footer p{
     width: auto;
   }
   .footer-content-right{
-    width: 100%;
     margin: 0 auto;
     display: inline;
     justify-content: center;
@@ -717,6 +710,15 @@ footer p{
   }
 /*! ----------------------   PROJECTS - 480px and below   ---------------------- */
 /*? ----------------------   PROJECTS - 480px and below   ---------------------- */
+  .project-details{
+    text-align: center;
+  }
+  .project-div{
+    justify-content: center;
+  }
+  .table-of-contents{
+    padding: 20px 60px;
+  }
   .app-section{
     margin: 0;
     padding: 15px;
