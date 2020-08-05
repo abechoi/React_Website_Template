@@ -26,7 +26,7 @@ const ProjectDetails = ({project}) => {
           <p className="date" style={{ marginTop: 5 }}>{project.createdAt}</p>
           <a className="github-sm" href="https://github.com/abechoi/abechoi_frontend" target="__blank">
             <FontAwesomeIcon icon={faGithub} size="2x" style={{ width: 16, height: 16 }}/>
-            <div className="github-md-text"><strong>View Repo</strong></div>
+            <div className="github-sm-text"><strong>View Repo</strong></div>
           </a>
         </div>
         

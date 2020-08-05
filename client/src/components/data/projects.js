@@ -22,7 +22,7 @@ const projects = [
       title: "Future Development",
       content: "I still have to clean up the CSS and move to a grid display. Then I want to add a backend to retrieve my site data, such as blogs and docs. While all this is happening, I will have to keep developing other projects to fill up the projects page. My next project will probably focus on APIs and GraphQL, I have a bookmarked GraphQL course on Youtube by The Net Ninja with 36 videos so I guess I should get started as soon as possible.",
     }]
-  }
+  },
 ];
 
 export default projects;
