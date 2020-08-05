@@ -311,21 +311,17 @@ footer p{
   justify-content: center;
   text-align: center;
   margin: auto;
-}
-.app-logo-first{
   font-size: 5rem;
   font-weight: 800;
+}
+.app-logo-first{
   color: #61DAFB;
-  align-self: center;
 }
 .app-logo-first:hover{
   color: #FDF200;
 }
 .app-logo-last{
- font-size: 5rem;
- font-weight: 800;
  color: #FF85EA;
- align-self: center;
 }
 .app-logo-last:hover{
  color: #FDF200;
@@ -617,7 +613,10 @@ footer p{
   .nav-logo{
     margin: 0 auto;
     text-align: center;
-    width: auto;
+    width: 35%;
+  }
+  .nav-logo a{
+    display: flex;
   }
   .site-links{
     list-style-type: none;
@@ -715,5 +714,15 @@ footer p{
     margin: 25px auto;
     font-size: 1.2rem;
     line-height: 1.7;
+  }
+/*! ----------------------   PROJECTS - 480px and below   ---------------------- */
+/*? ----------------------   PROJECTS - 480px and below   ---------------------- */
+  .app-section{
+    margin: 0;
+    padding: 15px;
+  }
+  .app-nav-logo{
+    font-size: 4rem;
+    font-weight: 800;
   }
 }
